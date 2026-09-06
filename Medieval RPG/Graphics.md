@@ -1,0 +1,1 @@
+- Semi-realistic, will rely heavily on lighting and VFX

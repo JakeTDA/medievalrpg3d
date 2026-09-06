@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"097763a8624b517a","type":"file","file":"Project Start.md","x":-240,"y":-880,"width":400,"height":400},
+		{"id":"b4b6a3b3a7ba5410","type":"file","file":"Game Mechanics.md","x":-1360,"y":-880,"width":400,"height":400},
+		{"id":"d553017f3ab49c46","type":"file","file":"Level Design.md","x":-840,"y":1,"width":400,"height":400},
+		{"id":"7882c0a23abba4a9","type":"file","file":"Graphics.md","x":360,"y":1,"width":400,"height":400},
+		{"id":"8aa49b232df99265","type":"file","file":"Sound Design.md","x":880,"y":-880,"width":400,"height":400},
+		{"id":"35d78bd87bfb6d1f","type":"file","file":"Player Movement.md","x":-2520,"y":-880,"width":400,"height":400},
+		{"id":"415e9d610eeb225a","type":"file","file":"Combat.md","x":-2520,"y":-399,"width":400,"height":400},
+		{"id":"9cc8fee9a1544e78","type":"file","file":"Enemies.md","x":-2520,"y":80,"width":400,"height":400},
+		{"id":"280384897849b3aa","type":"file","file":"Interactions.md","x":-2520,"y":560,"width":400,"height":400},
+		{"id":"72e63034efcaf277","type":"file","file":"Dialogues.md","x":-2520,"y":1040,"width":400,"height":400},
+		{"id":"cda14fd949f780f8","x":-420,"y":-2240,"width":760,"height":760,"type":"file","file":"Gameplay Loop Idea.md"}
+	],
+	"edges":[
+		{"id":"b08f5f8af944e73c","fromNode":"b4b6a3b3a7ba5410","fromSide":"left","toNode":"35d78bd87bfb6d1f","toSide":"right"},
+		{"id":"46ff174f1dd15f06","fromNode":"b4b6a3b3a7ba5410","fromSide":"left","toNode":"415e9d610eeb225a","toSide":"right"},
+		{"id":"b4b7af155e0704bd","fromNode":"b4b6a3b3a7ba5410","fromSide":"left","toNode":"9cc8fee9a1544e78","toSide":"right"},
+		{"id":"ccb14d79d992a83c","fromNode":"b4b6a3b3a7ba5410","fromSide":"left","toNode":"280384897849b3aa","toSide":"right"},
+		{"id":"44a897e8ffe6b41d","fromNode":"b4b6a3b3a7ba5410","fromSide":"left","toNode":"72e63034efcaf277","toSide":"right"},
+		{"id":"b5b81f1ff827382a","fromNode":"097763a8624b517a","fromSide":"left","toNode":"b4b6a3b3a7ba5410","toSide":"right"},
+		{"id":"c8e8b112648c4766","fromNode":"097763a8624b517a","fromSide":"right","toNode":"8aa49b232df99265","toSide":"left"},
+		{"id":"844e802a1b830176","fromNode":"097763a8624b517a","fromSide":"bottom","toNode":"d553017f3ab49c46","toSide":"top"},
+		{"id":"b84ea66fa6fd832c","fromNode":"097763a8624b517a","fromSide":"bottom","toNode":"7882c0a23abba4a9","toSide":"top"},
+		{"id":"ba2eed83b639810c","fromNode":"cda14fd949f780f8","fromSide":"bottom","toNode":"097763a8624b517a","toSide":"top"}
+	]
+}

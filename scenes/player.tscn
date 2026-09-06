@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://ca6vwhqjmalyl"]
+
+[ext_resource type="Script" uid="uid://clclrjhdp715u" path="res://scripts/player.gd" id="1_3vyb7"]
+[ext_resource type="PackedScene" uid="uid://bqag7jo3x6seb" path="res://scenes/melee_weapon.tscn" id="2_g2els"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_v6m6b"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_o3pdq"]
+
+[node name="CharacterBody3D" type="CharacterBody3D" unique_id=1927433663]
+script = ExtResource("1_3vyb7")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1112940688]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.96904314, 0)
+mesh = SubResource("CapsuleMesh_v6m6b")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=701486032]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9698763, 0)
+shape = SubResource("CapsuleShape3D_o3pdq")
+
+[node name="Pivot" type="Node3D" parent="." unique_id=310494752]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.811752, -0.15980911)
+
+[node name="Camera3D" type="Camera3D" parent="Pivot" unique_id=468945098]
+
+[node name="Melee" parent="Pivot" unique_id=537463735 instance=ExtResource("2_g2els")]
+transform = Transform3D(0.9077855, 0, 0.41943476, 0, 1, 0, -0.41943476, 0, 0.9077855, 0.28799972, -0.18957186, -0.5772208)

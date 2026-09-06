@@ -1,0 +1,3 @@
+- Basic Melee Combat
+- Directional fighting like Chivalry or Mordhau
+- Parrying based on camera and physics based like For Honor, or Bannerlord

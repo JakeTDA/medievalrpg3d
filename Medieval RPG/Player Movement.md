@@ -1,0 +1,3 @@
+- Slow and deliberate
+- Change depending on the class and equipment
+- Head Bobbing

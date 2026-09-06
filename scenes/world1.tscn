@@ -1,0 +1,62 @@
+[gd_scene format=3 uid="uid://qvhwtt50u635"]
+
+[ext_resource type="PackedScene" uid="uid://ca6vwhqjmalyl" path="res://scenes/player.tscn" id="1_6kdnw"]
+[ext_resource type="Script" uid="uid://clclrjhdp715u" path="res://scripts/player.gd" id="2_rp871"]
+[ext_resource type="VoxelGIData" uid="uid://dqu3fuox6c1tt" path="res://assets/world1.VoxelGI_data.res" id="3_scryw"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_54g3w"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_rf4cw"]
+sky_material = SubResource("ProceduralSkyMaterial_54g3w")
+
+[sub_resource type="Environment" id="Environment_7dtx0"]
+background_mode = 2
+sky = SubResource("Sky_rf4cw")
+glow_enabled = true
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_o3pdq"]
+size = Vector3(100.035, 1, 100)
+
+[sub_resource type="BoxMesh" id="BoxMesh_v6m6b"]
+size = Vector3(100, 1, 100)
+
+[sub_resource type="BoxMesh" id="BoxMesh_o3pdq"]
+size = Vector3(1, 2.0272217, 1)
+
+[node name="world1" type="Node3D" unique_id=1465337956]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=7240110]
+environment = SubResource("Environment_7dtx0")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=784195143]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="CharacterBody3D" parent="." unique_id=1927433663 instance=ExtResource("1_6kdnw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6640072, 0.72214067, -2.3555984)
+script = ExtResource("2_rp871")
+SPEED = 5.0
+JUMP_VELOCITY = 4.5
+sens = 0.002
+
+[node name="Baseplate" type="Node3D" parent="." unique_id=1480493018]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Baseplate" unique_id=1575776433]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Baseplate/StaticBody3D" unique_id=1564632723]
+shape = SubResource("BoxShape3D_o3pdq")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Baseplate/StaticBody3D" unique_id=1379497700]
+mesh = SubResource("BoxMesh_v6m6b")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Baseplate" unique_id=2047956323]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2913816, 1.5153444, 9.144153)
+mesh = SubResource("BoxMesh_o3pdq")
+
+[node name="VoxelGI" type="VoxelGI" parent="." unique_id=631714283]
+size = Vector3(99.417725, 20, 119.98535)
+data = ExtResource("3_scryw")
+
+[editable path="CharacterBody3D"]

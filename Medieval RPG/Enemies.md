@@ -1,0 +1,3 @@
+- Goblins and its types like melee, archer, mage
+- Flying enemies like bats, imps, eyeballs
+- Minotaur as a mini-boss like threat

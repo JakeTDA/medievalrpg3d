@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "fe38740ccc2c956a",
+    "type": "split",
+    "children": [
+      {
+        "id": "12ef7a013ad93767",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e5fbbff25b711ee",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Project Chart.canvas",
+                "viewState": {
+                  "x": -1153,
+                  "y": -1227,
+                  "zoom": 0
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "Project Chart"
+            }
+          },
+          {
+            "id": "2eb9f67879af4cd6",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Project Chart.canvas",
+                "viewState": {
+                  "x": -2054.574593995534,
+                  "y": -461.52758632974667,
+                  "zoom": -0.6666666666666667
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Project Chart"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9a108de3082ad522",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e63bd5662a38900",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99b1112d3a1a22d4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "47079c60873cfac4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "69e2ec1db285f0fc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "40774b6aa718c1f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b231d59002e6341",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16f74911e8bc465a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "799e57fa76c8bbec",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "9f93a6975e9b51c3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "14b6b771188e6cad",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "fd902c84a854a8e1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2eb9f67879af4cd6",
+  "lastOpenFiles": [
+    "Player Movement.md",
+    "Level Design.md",
+    "Project Chart.canvas",
+    "Dialogues.md",
+    "Gameplay Loop Idea.md",
+    "Enemies.md",
+    "Combat.md",
+    "Sound Design.md",
+    "Graphics.md",
+    "Game Mechanics.md",
+    "Project Start.md",
+    "Untitled 1.canvas",
+    "2026-09-04.md",
+    "Interactions.md",
+    "[Level Design.md",
+    "Untitled.base",
+    "2026-09-03.md",
+    "Untitled 1.base",
+    "Welcome.md"
+  ]
+}

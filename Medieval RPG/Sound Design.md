@@ -1,0 +1,3 @@
+- A lot of echoey type sounds that reflect off walls
+- Very distinct sounds that will be etched into the mind
+- Mainly atmospheric music
