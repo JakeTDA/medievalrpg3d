@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://clclrjhdp715u" path="res://scripts/player.gd" id="1_3vyb7"]
 [ext_resource type="PackedScene" uid="uid://bqag7jo3x6seb" path="res://scenes/melee_weapon.tscn" id="2_g2els"]
+[ext_resource type="PackedScene" uid="uid://de5qr5nke85ny" path="res://scenes/limbs.tscn" id="3_qhqgy"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_v6m6b"]
 
@@ -25,3 +26,5 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.811752, -0.15980911)
 
 [node name="Melee" parent="Pivot" unique_id=537463735 instance=ExtResource("2_g2els")]
 transform = Transform3D(0.9077855, 0, 0.41943476, 0, 1, 0, -0.41943476, 0, 0.9077855, 0.28799972, -0.18957186, -0.5772208)
+
+[node name="Limbs" parent="." unique_id=992178215 instance=ExtResource("3_qhqgy")]

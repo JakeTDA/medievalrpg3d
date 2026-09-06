@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://qvhwtt50u635"]
 
 [ext_resource type="PackedScene" uid="uid://ca6vwhqjmalyl" path="res://scenes/player.tscn" id="1_6kdnw"]
-[ext_resource type="Script" uid="uid://clclrjhdp715u" path="res://scripts/player.gd" id="2_rp871"]
 [ext_resource type="VoxelGIData" uid="uid://dqu3fuox6c1tt" path="res://assets/world1.VoxelGI_data.res" id="3_scryw"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_54g3w"]
@@ -36,10 +35,6 @@ shadow_enabled = true
 
 [node name="CharacterBody3D" parent="." unique_id=1927433663 instance=ExtResource("1_6kdnw")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6640072, 0.72214067, -2.3555984)
-script = ExtResource("2_rp871")
-SPEED = 5.0
-JUMP_VELOCITY = 4.5
-sens = 0.002
 
 [node name="Baseplate" type="Node3D" parent="." unique_id=1480493018]
 
